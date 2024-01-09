@@ -38,6 +38,7 @@ export default function ClaimUsernameForm() {
         <TextInput
           size="sm"
           prefix="tridapallil.com/"
+          crossOrigin="anonymous"
           placeholder="seu-usuário"
           {...register('username')}
         />
