@@ -1,6 +1,5 @@
 import { useQuery } from '@tanstack/react-query'
 import dayjs from 'dayjs'
-import { useSearchParams } from 'next/navigation'
 import { useRouter } from 'next/router'
 import { useState } from 'react'
 import { Calendar } from '../../../../../components/Calendar'

@@ -33,8 +33,7 @@ export function ConfirmStep({
     resolver: zodResolver(confirmFormSchema),
   })
 
-  function handleConfirmScheduling(data: ConfirmFormData) {
-    const router = useRouter()
+  const router = useRouter()
   const username = String(router.query.username)
 
   async function handleConfirmScheduling(data: ConfirmFormData) {

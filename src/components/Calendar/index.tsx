@@ -31,6 +31,7 @@ export function Calendar({ selectedDate, onDateSelected }: CalendarPros) {
   })
   const router = useRouter()
   const username = String(router.query.username)
+  console.log(selectedDate)
 
   function handlePreviousMonth() {
     const previousMonth = currentDate.subtract(1, 'month')
